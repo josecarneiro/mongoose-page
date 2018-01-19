@@ -1,0 +1,31 @@
+{
+  "name": "mongoose-page",
+  "version": "0.1.0",
+  "description": "Tiny plugin to paginate mongoose queries",
+  "author": {
+    "name": "José Carneiro",
+    "email": "contact@josecarnei.ro",
+    "url": "https://josecarnei.ro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josecarneiro/mongoose-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josecarneiro/mongoose-page/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/index.js",
+    "test:dev": "nodemon --exec \"mocha ./test/index.js || true\"",
+    "lint": "eslint ./ --cache --ignore-pattern .gitignore client"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.15.0",
+    "eslint-config-josecarneiro": "0.0.2",
+    "mocha": "^5.0.0",
+    "mongoose": "^5.0.0"
+  }
+}
